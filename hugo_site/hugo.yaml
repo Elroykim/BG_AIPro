@@ -1,0 +1,40 @@
+baseURL: https://elroykim.github.io/blog/
+languageCode: ko
+title: "BG AIPro Blog"
+theme: blog-theme
+
+defaultContentLanguage: ko
+
+params:
+  description: "AI 기반 멀티 주제 블로그"
+  author: "Elroykim"
+
+taxonomies:
+  tag: tags
+  category: categories
+  topic: topics
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai
+    lineNos: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+
+sitemap:
+  changeFreq: weekly
+  priority: 0.5

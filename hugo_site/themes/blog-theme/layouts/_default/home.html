@@ -1,0 +1,20 @@
+{{ define "main" }}
+<h1>{{ site.Title }}</h1>
+<p>{{ site.Params.description }}</p>
+
+<h2>Latest Posts</h2>
+<ul class="post-list">
+  {{ range site.RegularPages.ByDate.Reverse }}
+  <li>
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <div class="post-meta">
+      <span>{{ .Date.Format "2006-01-02" }}</span>
+      {{ with .Params.categories }}
+      {{ range . }}<a href="{{ absURL "categories/" }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+      {{ end }}
+    </div>
+    {{ with .Description }}<p class="summary">{{ . }}</p>{{ end }}
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

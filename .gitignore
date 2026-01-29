@@ -8,3 +8,8 @@ dist/
 .ruff_cache/
 data/*.db
 output/
+
+# Hugo
+hugo_site/public/
+hugo_site/resources/
+hugo_site/.hugo_build.lock

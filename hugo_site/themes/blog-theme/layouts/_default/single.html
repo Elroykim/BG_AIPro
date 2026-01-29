@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  <div class="post-meta">
+    <span>{{ .Date.Format "2006-01-02" }}</span>
+    {{ with .Params.categories }}
+    <span>{{ range . }}<a href="{{ absURL "categories/" }}{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}</span>
+    {{ end }}
+    {{ with .ReadingTime }}<span>{{ . }}min read</span>{{ end }}
+  </div>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.tags }}
+  <div style="margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border);">
+    <strong>Tags:</strong>
+    {{ range . }}
+    <a href="{{ absURL "tags/" }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</article>
+{{ end }}

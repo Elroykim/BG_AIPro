@@ -1,0 +1,5 @@
+{{ $options := dict "transpiler" "libsass" "outputStyle" "compressed" }}
+{{ with resources.Get "sass/main.scss" }}
+  {{ $style := . | toCSS $options }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ end }}
