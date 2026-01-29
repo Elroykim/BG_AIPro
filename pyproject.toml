@@ -20,6 +20,8 @@ python-slugify = "^8.0"   # URL 슬러그 생성
 beautifulsoup4 = "^4.12"  # HTML 파싱 (크로스포스팅)
 markdownify = "^0.13"     # HTML → Markdown 변환
 rich = "^13.0"            # CLI 출력
+fastapi = "^0.115"        # Resume API 엔드포인트
+uvicorn = {version = "^0.34", extras = ["standard"]}  # ASGI 서버
 
 [tool.poetry.dependencies.optional]
 selenium = "^4.25"        # 티스토리 자동화

@@ -83,6 +83,15 @@ async def cmd_run(topic_name: str, keyword: str | None = None):
             console.print(f"  [red]오류: {err}[/red]")
 
 
+def cmd_serve(host: str = "0.0.0.0", port: int = 8000):
+    """Resume API 서버를 시작한다."""
+    import uvicorn
+
+    console.print(f"[bold green]Resume API 서버 시작:[/bold green] http://{host}:{port}")
+    console.print("[cyan]API 문서: http://{host}:{port}/docs[/cyan]")
+    uvicorn.run("src.resume.api:app", host=host, port=port, reload=True)
+
+
 def main():
     if len(sys.argv) < 2:
         console.print("[bold]BG_AIPro[/bold] - 블로그 자동화 시스템")
@@ -90,6 +99,8 @@ def main():
         console.print("  bgai topics           등록된 토픽 목록")
         console.print("  bgai run <토픽>       파이프라인 실행")
         console.print("  bgai run <토픽> <키워드>  특정 키워드로 실행")
+        console.print("  bgai serve            Resume API 서버 시작")
+        console.print("  bgai serve <포트>     지정 포트로 서버 시작")
         return
 
     command = sys.argv[1]
@@ -103,6 +114,9 @@ def main():
             console.print("[red]토픽 이름을 지정하세요.[/red]")
             return
         asyncio.run(cmd_run(topic_name, keyword))
+    elif command == "serve":
+        port = int(sys.argv[2]) if len(sys.argv) > 2 else 8000
+        cmd_serve(port=port)
     else:
         console.print(f"[red]알 수 없는 명령: {command}[/red]")
 

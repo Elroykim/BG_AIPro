@@ -1,0 +1,121 @@
+# 이력서 데이터 (YAML)
+# 이 파일을 수정하여 자신의 이력서 정보를 입력하세요.
+
+name: "홍길동"
+title: "AI/ML 엔지니어"
+summary: >
+  5년 경력의 AI/ML 엔지니어. 대규모 언어 모델(LLM) 기반 시스템 설계 및 운영,
+  MLOps 파이프라인 구축, 풀스택 웹 개발에 강점을 보유하고 있습니다.
+  데이터 기반 의사결정과 자동화 시스템 구축에 열정을 가지고 있습니다.
+
+contact:
+  email: "example@email.com"
+  phone: "010-0000-0000"
+  location: "서울, 대한민국"
+  website: "https://example.com"
+  github: "https://github.com/example"
+  linkedin: "https://linkedin.com/in/example"
+
+experience:
+  - company: "AI테크 주식회사"
+    position: "시니어 AI 엔지니어"
+    start_date: "2023-01"
+    end_date: "현재"
+    description: "LLM 기반 콘텐츠 자동화 플랫폼 개발 리드"
+    highlights:
+      - "Claude API 연동 콘텐츠 생성 파이프라인 설계 및 구축"
+      - "RAG 시스템 구축으로 응답 정확도 40% 향상"
+      - "멀티 플랫폼 자동 발행 시스템 개발 (WordPress, Hugo, Naver)"
+
+  - company: "데이터랩스"
+    position: "ML 엔지니어"
+    start_date: "2021-03"
+    end_date: "2022-12"
+    description: "추천 시스템 및 NLP 모델 개발"
+    highlights:
+      - "사용자 추천 모델 개발로 CTR 25% 개선"
+      - "한국어 감성 분석 모델 구축 (F1: 0.92)"
+      - "MLflow 기반 실험 관리 및 모델 배포 자동화"
+
+  - company: "웹스타트업"
+    position: "백엔드 개발자"
+    start_date: "2019-06"
+    end_date: "2021-02"
+    description: "RESTful API 설계 및 마이크로서비스 개발"
+    highlights:
+      - "FastAPI 기반 API 서버 설계 및 운영"
+      - "PostgreSQL, Redis 기반 데이터 아키텍처 구축"
+      - "Docker/Kubernetes 환경 배포 자동화"
+
+education:
+  - institution: "서울대학교"
+    degree: "석사"
+    field: "컴퓨터공학"
+    start_date: "2017-03"
+    end_date: "2019-02"
+    highlights:
+      - "자연어처리 연구실"
+      - "졸업 논문: 한국어 텍스트 요약 모델 연구"
+
+  - institution: "서울대학교"
+    degree: "학사"
+    field: "컴퓨터공학"
+    start_date: "2013-03"
+    end_date: "2017-02"
+    highlights:
+      - "학과 우수 졸업"
+
+skills:
+  - category: "프로그래밍 언어"
+    items: ["Python", "TypeScript", "Go", "SQL"]
+
+  - category: "AI/ML"
+    items: ["PyTorch", "LangChain", "RAG", "LLM Fine-tuning", "NLP", "Transformers"]
+
+  - category: "백엔드"
+    items: ["FastAPI", "Django", "Node.js", "PostgreSQL", "Redis", "MongoDB"]
+
+  - category: "DevOps"
+    items: ["Docker", "Kubernetes", "GitHub Actions", "AWS", "GCP", "Terraform"]
+
+  - category: "도구"
+    items: ["Git", "MLflow", "Weights & Biases", "Hugo", "Jupyter"]
+
+projects:
+  - name: "BG_AIPro"
+    description: "멀티 플랫폼 AI 블로그 자동화 시스템"
+    tech_stack: ["Python", "Claude API", "Hugo", "FastAPI", "GitHub Actions"]
+    url: "https://github.com/example/BG_AIPro"
+    highlights:
+      - "5단계 콘텐츠 파이프라인 (기획→작성→검토→발행→모니터링)"
+      - "WordPress, Hugo, Naver 블로그 동시 발행"
+      - "AI 품질 검토 및 자동 개선 시스템"
+
+  - name: "RAG 검색 엔진"
+    description: "사내 문서 기반 지능형 검색 시스템"
+    tech_stack: ["Python", "LangChain", "ChromaDB", "FastAPI"]
+    url: ""
+    highlights:
+      - "임베딩 기반 시맨틱 검색 구현"
+      - "질의응답 정확도 85% 달성"
+
+  - name: "한국어 감성 분석 API"
+    description: "실시간 한국어 텍스트 감성 분류 서비스"
+    tech_stack: ["Python", "PyTorch", "FastAPI", "Docker"]
+    url: ""
+    highlights:
+      - "KoBERT 기반 감성 분류 모델"
+      - "일 100만 요청 처리 성능"
+
+certifications:
+  - name: "AWS Solutions Architect Associate"
+    issuer: "Amazon Web Services"
+    date: "2023-06"
+
+  - name: "정보처리기사"
+    issuer: "한국산업인력공단"
+    date: "2018-11"
+
+languages:
+  - "한국어 (모국어)"
+  - "영어 (비즈니스 수준)"
