@@ -1,4 +1,5 @@
 @echo off
+setlocal enabledelayedexpansion
 REM ============================================================
 REM BG_AIPro -> AiKim 배포 스크립트
 REM
@@ -19,12 +20,12 @@ echo.
 
 REM 1. 경로 확인
 if not exist "%HUGO_SRC%\hugo.yaml" (
-    echo [ERROR] Hugo 사이트 없음: %HUGO_SRC%
+    echo [ERROR] Hugo 사이트 없음: !HUGO_SRC!
     pause
     exit /b 1
 )
 if not exist "%DEPLOY_PATH%\.git" (
-    echo [ERROR] AiKim 레포 없음: %DEPLOY_PATH%
+    echo [ERROR] AiKim 레포 없음: !DEPLOY_PATH!
     echo setup_local.bat를 먼저 실행하세요.
     pause
     exit /b 1

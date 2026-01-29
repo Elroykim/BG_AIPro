@@ -1,4 +1,5 @@
 @echo off
+setlocal enabledelayedexpansion
 REM ============================================================
 REM BG_AIPro 로컬 환경 셋업 (Windows)
 REM
@@ -70,8 +71,8 @@ echo ============================================================
 echo  셋업 완료!
 echo ============================================================
 echo.
-echo  BG_AIPro: %PROJECT_PATH%  (원고 + 자동화 + SEO)
-echo  AiKim:    %DEPLOY_PATH%  (배포 전용)
+echo  BG_AIPro: !PROJECT_PATH!  (원고 + 자동화 + SEO)
+echo  AiKim:    !DEPLOY_PATH!  (배포 전용)
 echo.
 echo  배포 방법: scripts\deploy.bat 실행
 echo.
