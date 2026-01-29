@@ -1,0 +1,119 @@
+{
+  "topic_category": "AI/LLM",
+  "research_date": "2026-01-29",
+  "total_ideas": 10,
+  "publishing_order": [
+    "korea-ai-basic-law-2026-developer-guide",
+    "mcp-model-context-protocol-guide-2026",
+    "claude-code-practical-workflow-guide-2026",
+    "build-ai-agent-python-tutorial-2026",
+    "n8n-ai-automation-workflow-guide-2026",
+    "ollama-local-llm-setup-guide-2026",
+    "llm-api-pricing-comparison-cost-optimization-2026",
+    "rag-system-build-guide-python-2026",
+    "chatgpt-vs-claude-vs-gemini-comparison-2026",
+    "ai-side-project-income-monetization-2026"
+  ],
+  "ideas": [
+    {
+      "rank": 1,
+      "title": "MCP 완전 가이드: AI 에이전트의 USB-C, 개념부터 서버 구축까지 (2026)",
+      "slug": "mcp-model-context-protocol-guide-2026",
+      "main_keyword": "MCP (Model Context Protocol)",
+      "long_tail_keywords": ["MCP 프로토콜 뜻", "MCP 서버 만들기 튜토리얼", "MCP Claude 연동 방법", "Model Context Protocol 사용법", "AI 에이전트 MCP 연결"],
+      "search_intent": "informational",
+      "competition": "low",
+      "priority": "high"
+    },
+    {
+      "rank": 2,
+      "title": "Claude Code 실전 활용법: 터미널에서 AI와 함께 개발하는 완벽 워크플로우 (2026)",
+      "slug": "claude-code-practical-workflow-guide-2026",
+      "main_keyword": "Claude Code 사용법",
+      "long_tail_keywords": ["Claude Code 설치 방법", "Claude Code 터미널 사용법", "Claude Code vs Cursor 비교", "Claude Code 프롬프트 팁", "AI 코딩 에이전트 추천"],
+      "search_intent": "informational/commercial",
+      "competition": "low-medium",
+      "priority": "high"
+    },
+    {
+      "rank": 3,
+      "title": "AI 에이전트 직접 만들기: Python으로 시작하는 2026 실전 튜토리얼",
+      "slug": "build-ai-agent-python-tutorial-2026",
+      "main_keyword": "AI 에이전트 만들기",
+      "long_tail_keywords": ["AI 에이전트 구축 방법", "Python AI 에이전트 튜토리얼", "LangChain 에이전트 만들기", "AI 에이전트 개발 입문", "에이전트 AI 예제 코드"],
+      "search_intent": "informational",
+      "competition": "medium",
+      "priority": "high"
+    },
+    {
+      "rank": 4,
+      "title": "2026 AI 기본법 시행: 개발자와 스타트업이 알아야 할 모든 것",
+      "slug": "korea-ai-basic-law-2026-developer-guide",
+      "main_keyword": "AI 기본법 2026",
+      "long_tail_keywords": ["AI 기본법 시행일", "인공지능 기본법 기업 준비", "고영향 AI 의무사항", "생성형 AI 투명성 의무", "AI 기본법 과태료"],
+      "search_intent": "informational/commercial",
+      "competition": "medium",
+      "priority": "high"
+    },
+    {
+      "rank": 5,
+      "title": "n8n으로 AI 업무 자동화 시작하기: 비개발자를 위한 실전 워크플로우 5선",
+      "slug": "n8n-ai-automation-workflow-guide-2026",
+      "main_keyword": "n8n AI 자동화",
+      "long_tail_keywords": ["n8n 사용법 한국어", "AI 업무 자동화 도구", "n8n 워크플로우 예제", "노코드 AI 자동화", "n8n Claude 연동"],
+      "search_intent": "informational/commercial",
+      "competition": "low",
+      "priority": "normal"
+    },
+    {
+      "rank": 6,
+      "title": "내 컴퓨터에서 AI 돌리기: Ollama로 로컬 LLM 설치하고 활용하는 법 (2026)",
+      "slug": "ollama-local-llm-setup-guide-2026",
+      "main_keyword": "로컬 LLM 설치",
+      "long_tail_keywords": ["Ollama 설치 방법", "로컬 AI 무료 사용", "Ollama 한국어 모델 추천", "로컬 LLM 장단점", "Ollama vs ChatGPT 비교"],
+      "search_intent": "informational/transactional",
+      "competition": "low-medium",
+      "priority": "normal"
+    },
+    {
+      "rank": 7,
+      "title": "LLM API 비용 완벽 비교: GPT vs Claude vs Gemini, 최적의 선택과 비용 절감법 (2026년 1월)",
+      "slug": "llm-api-pricing-comparison-cost-optimization-2026",
+      "main_keyword": "LLM API 비용 비교",
+      "long_tail_keywords": ["GPT API 가격 2026", "Claude API 비용", "LLM API 저렴한 모델", "AI API 비용 절감 방법", "배치 API 사용법"],
+      "search_intent": "commercial/transactional",
+      "competition": "low-medium",
+      "priority": "normal"
+    },
+    {
+      "rank": 8,
+      "title": "RAG 시스템 구축 입문: 나만의 AI 지식 베이스 만들기 (Python 실전 가이드)",
+      "slug": "rag-system-build-guide-python-2026",
+      "main_keyword": "RAG 시스템 구축",
+      "long_tail_keywords": ["RAG 구현 방법", "검색 증강 생성 튜토리얼", "LangChain RAG 한국어", "벡터 데이터베이스 사용법", "RAG 한국어 임베딩"],
+      "search_intent": "informational",
+      "competition": "medium",
+      "priority": "normal"
+    },
+    {
+      "rank": 9,
+      "title": "ChatGPT vs Claude vs Gemini 2026 완벽 비교: 한국 사용자를 위한 AI 선택 가이드",
+      "slug": "chatgpt-vs-claude-vs-gemini-comparison-2026",
+      "main_keyword": "ChatGPT Claude Gemini 비교",
+      "long_tail_keywords": ["AI 챗봇 비교 2026", "ChatGPT vs Claude 한국어", "어떤 AI 쓸까", "AI 구독 추천 2026", "Claude 한국어 성능"],
+      "search_intent": "commercial/informational",
+      "competition": "high",
+      "priority": "normal"
+    },
+    {
+      "rank": 10,
+      "title": "AI로 월 100만원 사이드 수익 만들기: 2026 현실적인 수익화 모델 7가지",
+      "slug": "ai-side-project-income-monetization-2026",
+      "main_keyword": "AI 사이드프로젝트 수익화",
+      "long_tail_keywords": ["AI로 돈 벌기 방법", "AI 부업 추천 2026", "AI 자동화 수익 모델", "비개발자 AI 수익화", "AI 사이드 프로젝트 아이디어"],
+      "search_intent": "commercial/transactional",
+      "competition": "low",
+      "priority": "normal"
+    }
+  ]
+}
