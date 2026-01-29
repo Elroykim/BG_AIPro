@@ -6,11 +6,11 @@ REM hugo_site/의 콘텐츠를 AiKim 레포에 복사하고 push한다.
 REM GitHub Actions가 자동으로 Hugo 빌드 + GitHub Pages 배포.
 REM ============================================================
 
-set VAULT_PATH=C:\Git\Elroy Vault
-set WORK_PATH=%VAULT_PATH%\01.Project & Processing
-set PROJECT_PATH=%WORK_PATH%\BG_AIPro
-set DEPLOY_PATH=%WORK_PATH%\AiKim
-set HUGO_SRC=%PROJECT_PATH%\hugo_site
+set "VAULT_PATH=C:\Git\Elroy Vault"
+set "WORK_PATH=%VAULT_PATH%\01.Project & Processing"
+set "PROJECT_PATH=%WORK_PATH%\BG_AIPro"
+set "DEPLOY_PATH=%WORK_PATH%\AiKim"
+set "HUGO_SRC=%PROJECT_PATH%\hugo_site"
 
 echo ============================================================
 echo  BG_AIPro -> AiKim 배포

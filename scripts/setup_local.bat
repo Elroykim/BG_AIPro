@@ -7,10 +7,10 @@ REM   C:\Git\Elroy Vault\01.Project & Processing\BG_AIPro\  <- 원고 + 자동�
 REM   C:\Git\Elroy Vault\01.Project & Processing\AiKim\     <- 배포 전용
 REM ============================================================
 
-set VAULT_PATH=C:\Git\Elroy Vault
-set WORK_PATH=%VAULT_PATH%\01.Project & Processing
-set PROJECT_PATH=%WORK_PATH%\BG_AIPro
-set DEPLOY_PATH=%WORK_PATH%\AiKim
+set "VAULT_PATH=C:\Git\Elroy Vault"
+set "WORK_PATH=%VAULT_PATH%\01.Project & Processing"
+set "PROJECT_PATH=%WORK_PATH%\BG_AIPro"
+set "DEPLOY_PATH=%WORK_PATH%\AiKim"
 
 echo ============================================================
 echo  BG_AIPro + AiKim 로컬 환경 셋업
