@@ -7,8 +7,9 @@ REM GitHub Actions가 자동으로 Hugo 빌드 + GitHub Pages 배포.
 REM ============================================================
 
 set VAULT_PATH=C:\Git\Elroy Vault
-set PROJECT_PATH=%VAULT_PATH%\BG_AIPro
-set DEPLOY_PATH=%VAULT_PATH%\AiKim
+set WORK_PATH=%VAULT_PATH%\01.Project & Processing
+set PROJECT_PATH=%WORK_PATH%\BG_AIPro
+set DEPLOY_PATH=%WORK_PATH%\AiKim
 set HUGO_SRC=%PROJECT_PATH%\hugo_site
 
 echo ============================================================

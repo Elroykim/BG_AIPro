@@ -3,13 +3,14 @@ REM ============================================================
 REM BG_AIPro 로컬 환경 셋업 (Windows)
 REM
 REM 구조:
-REM   C:\Git\Elroy Vault\BG_AIPro\     <- 원고 작성 + 자동화 + SEO
-REM   C:\Git\Elroy Vault\AiKim\        <- 배포 전용 (GitHub Pages)
+REM   C:\Git\Elroy Vault\01.Project & Processing\BG_AIPro\  <- 원고 + 자동화
+REM   C:\Git\Elroy Vault\01.Project & Processing\AiKim\     <- 배포 전용
 REM ============================================================
 
 set VAULT_PATH=C:\Git\Elroy Vault
-set PROJECT_PATH=%VAULT_PATH%\BG_AIPro
-set DEPLOY_PATH=%VAULT_PATH%\AiKim
+set WORK_PATH=%VAULT_PATH%\01.Project & Processing
+set PROJECT_PATH=%WORK_PATH%\BG_AIPro
+set DEPLOY_PATH=%WORK_PATH%\AiKim
 
 echo ============================================================
 echo  BG_AIPro + AiKim 로컬 환경 셋업
