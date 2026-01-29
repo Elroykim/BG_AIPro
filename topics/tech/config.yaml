@@ -1,0 +1,15 @@
+name: tech
+display_name: "테크 블로그"
+platforms:
+  - wordpress
+  - hugo
+  - naver
+keywords_strategy: long_tail
+posting_frequency: "3/week"
+tone: professional
+language: ko
+categories:
+  - 프로그래밍
+  - AI
+  - 개발 도구
+target_audience: "개발자 및 IT 종사자"

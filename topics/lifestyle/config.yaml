@@ -1,0 +1,15 @@
+name: lifestyle
+display_name: "라이프스타일"
+platforms:
+  - wordpress
+  - hugo
+  - naver
+keywords_strategy: long_tail
+posting_frequency: "2/week"
+tone: casual
+language: ko
+categories:
+  - 일상
+  - 취미
+  - 자기계발
+target_audience: "다양한 취미와 라이프스타일에 관심있는 사람들"

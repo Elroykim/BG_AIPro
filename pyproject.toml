@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "bg-aipro"
+version = "0.1.0"
+description = "멀티 플랫폼 블로그 자동화 시스템"
+authors = ["Elroykim"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.27"           # HTTP 클라이언트 (WordPress/Ghost API)
+pyyaml = "^6.0"           # 설정 파일 파싱
+pydantic = "^2.0"         # 데이터 모델 검증
+pydantic-settings = "^2.0" # 환경변수 기반 설정
+anthropic = "^0.40"       # Claude API
+apscheduler = "^3.10"     # 스케줄링
+jinja2 = "^3.1"           # 프롬프트 템플릿
+python-frontmatter = "^1.1" # Hugo 마크다운 프론트매터
+python-slugify = "^8.0"   # URL 슬러그 생성
+beautifulsoup4 = "^4.12"  # HTML 파싱 (크로스포스팅)
+markdownify = "^0.13"     # HTML → Markdown 변환
+rich = "^13.0"            # CLI 출력
+
+[tool.poetry.dependencies.optional]
+selenium = "^4.25"        # 티스토리 자동화
+pillow = "^10.0"          # 이미지 처리
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+pytest-asyncio = "^0.24"
+ruff = "^0.8"
+
+[tool.poetry.scripts]
+bgai = "src.cli:main"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

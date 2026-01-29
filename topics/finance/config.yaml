@@ -1,0 +1,15 @@
+name: finance
+display_name: "재테크·금융"
+platforms:
+  - wordpress
+  - hugo
+  - naver
+keywords_strategy: long_tail
+posting_frequency: "2/week"
+tone: friendly
+language: ko
+categories:
+  - 투자
+  - 저축
+  - 경제 상식
+target_audience: "재테크에 관심있는 2030 직장인"
