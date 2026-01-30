@@ -5,7 +5,7 @@ description: "프롬프트 엔지니어링의 핵심 원리부터 고급 테크�
 categories: [AI]
 tags: [프롬프트 엔지니어링, ChatGPT, Claude, LLM, AI 활용]
 keywords: [프롬프트 엔지니어링 가이드, 프롬프트 작성법, ChatGPT 프롬프트, Claude 프롬프트, AI 프롬프트 팁]
-draft: false
+draft: true
 slug: prompt-engineering-complete-guide-2026
 ---
 

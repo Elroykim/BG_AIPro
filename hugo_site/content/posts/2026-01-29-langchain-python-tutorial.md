@@ -5,7 +5,7 @@ description: "LangChain의 핵심 개념과 구성 요소를 이해하고, Pytho
 categories: [AI]
 tags: [LangChain, Python, LLM, AI 개발, 에이전트]
 keywords: [LangChain 사용법, LangChain 입문, LangChain Python 튜토리얼, AI 앱 만들기, LangChain 에이전트]
-draft: false
+draft: true
 slug: langchain-python-beginner-guide-2026
 ---
 

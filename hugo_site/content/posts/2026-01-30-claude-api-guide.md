@@ -5,7 +5,7 @@ description: "Claude API(Anthropic API)의 기본 사용법부터 Tool Use, 비�
 categories: [AI]
 tags: [Claude API, Anthropic, LLM API, AI 개발, Python]
 keywords: [Claude API 사용법, Anthropic API 가이드, Claude API Python, Claude Tool Use, Claude 비전 API]
-draft: false
+draft: true
 slug: claude-api-anthropic-guide-2026
 ---
 

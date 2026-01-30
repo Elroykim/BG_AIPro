@@ -5,7 +5,7 @@ description: "LLM을 커스터마이징하는 두 가지 방법인 파인튜닝�
 categories: [AI]
 tags: [파인튜닝, RAG, LLM, AI 개발, 머신러닝]
 keywords: [파인튜닝 vs RAG, LLM 파인튜닝 방법, RAG 시스템, LLM 커스터마이징, 파인튜닝 비용]
-draft: false
+draft: true
 slug: finetuning-vs-rag-comparison-guide-2026
 ---
 

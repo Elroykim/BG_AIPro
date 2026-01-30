@@ -5,7 +5,7 @@ description: "AI 도구를 활용해 현실적으로 월 100만원 사이드 수
 categories: [AI]
 tags: [AI 수익화, AI 부업, 사이드프로젝트, AI 자동화, 프리랜싱]
 keywords: [AI 사이드프로젝트 수익화, AI로 돈 벌기, AI 부업 추천 2026, AI 자동화 수익, 비개발자 AI 수익화]
-draft: false
+draft: true
 slug: ai-side-project-income-monetization-2026
 ---
 

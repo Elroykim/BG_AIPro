@@ -5,7 +5,7 @@ description: "Ollama를 이용해 내 컴퓨터에서 무료로 AI를 실행하�
 categories: [AI]
 tags: [Ollama, 로컬 LLM, AI 무료, DeepSeek, 오픈소스 AI]
 keywords: [Ollama 설치 방법, 로컬 LLM, 로컬 AI 무료, Ollama 한국어 모델, Ollama vs ChatGPT]
-draft: false
+draft: true
 slug: ollama-local-llm-setup-guide-2026
 ---
 

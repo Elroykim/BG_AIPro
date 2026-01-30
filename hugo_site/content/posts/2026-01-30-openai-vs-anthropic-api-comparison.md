@@ -5,7 +5,7 @@ description: "OpenAI(GPT-4o)와 Anthropic(Claude) API의 기능, 가격, 성능,
 categories: [AI]
 tags: [OpenAI, Anthropic, Claude, GPT, API 비교]
 keywords: [OpenAI vs Anthropic, GPT API vs Claude API, LLM API 비교 2026, AI API 선택 가이드, OpenAI Anthropic 차이]
-draft: false
+draft: true
 slug: openai-vs-anthropic-api-comparison-2026
 ---
 

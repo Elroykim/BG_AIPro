@@ -1,18 +1,42 @@
 baseURL: https://elroykim.github.io/BG_AIPro/
 languageCode: ko
-title: "BG AIPro Blog"
-theme: blog-theme
+title: "Elroy's Dev Log"
+theme: PaperMod
 
 defaultContentLanguage: ko
 
 params:
-  description: "AI 기반 멀티 주제 블로그"
-  author: "Elroykim"
+  env: production
+  description: "개발하면서 배운 것들, AI 도구 써보고 정리한 기록"
+  author: "Elroy"
+
+  homeInfoParams:
+    Title: "안녕하세요 👋"
+    Content: >
+      개발자 Elroy의 블로그입니다.
+      AI, 개발 도구, 사이드 프로젝트 이야기를 씁니다.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Elroykim"
+
+  showReadingTime: true
+  showShareButtons: true
+  showPostNavLinks: true
+  showBreadCrumbs: true
+  showCodeCopyButtons: true
+  showToc: true
+  TocOpen: false
+
+  assets:
+    disableFingerprinting: true
+
+  cover:
+    linkFullImages: true
 
 taxonomies:
   tag: tags
   category: categories
-  topic: topics
 
 markup:
   goldmark:
@@ -21,14 +45,13 @@ markup:
   highlight:
     style: monokai
     lineNos: true
+    noClasses: false
 
 outputs:
   home:
     - HTML
     - RSS
-  section:
-    - HTML
-    - RSS
+    - JSON
 
 pagination:
   pagerSize: 10
@@ -38,3 +61,22 @@ enableRobotsTXT: true
 sitemap:
   changeFreq: weekly
   priority: 0.5
+
+menu:
+  main:
+    - identifier: posts
+      name: 글 목록
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: 카테고리
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: 태그
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: 검색
+      url: /search/
+      weight: 40

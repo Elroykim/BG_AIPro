@@ -5,7 +5,7 @@ description: "멀티모달 AI의 개념, 주요 모델(GPT-4o, Claude, Gemini), 
 categories: [AI]
 tags: [멀티모달 AI, GPT-4o, Claude, Gemini, AI 비전]
 keywords: [멀티모달 AI, 멀티모달 모델 비교, GPT-4o 비전, Claude 이미지 분석, AI 음성 인식]
-draft: false
+draft: true
 slug: multimodal-ai-guide-2026
 ---
 

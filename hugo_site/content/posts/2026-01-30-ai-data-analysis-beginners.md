@@ -5,7 +5,7 @@ description: "비개발자도 AI를 활용해 데이터를 분석할 수 있습�
 categories: [AI]
 tags: [AI 데이터 분석, ChatGPT, Claude, 노코드, 비즈니스 인텔리전스]
 keywords: [AI 데이터 분석, ChatGPT 엑셀 분석, Claude 데이터 분석, AI 비개발자, 노코드 데이터 분석]
-draft: false
+draft: true
 slug: ai-data-analysis-beginners-guide-2026
 ---
 

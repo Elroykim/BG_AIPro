@@ -5,7 +5,7 @@ description: "2026년 주요 AI 이미지 생성 도구 4종을 가격, 품질, 
 categories: [AI]
 tags: [AI 이미지 생성, Midjourney, DALL-E, Stable Diffusion, Flux]
 keywords: [AI 이미지 생성 비교, Midjourney 사용법, DALL-E 3 가격, Stable Diffusion 설치, AI 그림 그리기]
-draft: false
+draft: true
 slug: ai-image-generation-comparison-2026
 ---
 

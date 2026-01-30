@@ -5,7 +5,7 @@ description: "Streamlit을 활용하여 Python만으로 AI 챗봇 웹 애플리�
 categories: [AI]
 tags: [Streamlit, Python, AI 챗봇, 웹앱, LLM]
 keywords: [Streamlit 사용법, Streamlit AI 챗봇, Python 웹앱 만들기, Streamlit 튜토리얼, LLM 웹앱]
-draft: false
+draft: true
 slug: streamlit-ai-webapp-tutorial-2026
 ---
 

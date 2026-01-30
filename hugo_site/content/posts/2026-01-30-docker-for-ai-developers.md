@@ -5,7 +5,7 @@ description: "AI/ML 프로젝트에서 Docker를 활용하는 방법. 개발 환
 categories: [AI]
 tags: [Docker, AI 개발, GPU, 컨테이너, DevOps]
 keywords: [Docker AI 개발, Docker GPU 설정, AI 모델 Docker 배포, Docker Compose ML, 컨테이너 머신러닝]
-draft: false
+draft: true
 slug: docker-for-ai-developers-guide-2026
 ---
 

@@ -5,7 +5,7 @@ description: "AI 에이전트의 작동 원리를 이해하고, Python으로 직
 categories: [AI]
 tags: [AI 에이전트, Python, ReAct, Tool Use, LLM 개발]
 keywords: [AI 에이전트 만들기, Python AI 에이전트, AI 에이전트 구축, 에이전트 AI 예제 코드, AI 에이전트 개발 입문]
-draft: false
+draft: true
 slug: build-ai-agent-python-tutorial-2026
 ---
 

@@ -5,7 +5,7 @@ description: "2026년 1월 시행된 AI 기본법의 핵심 내용을 개발자�
 categories: [AI]
 tags: [AI 기본법, 인공지능 규제, AI 윤리, 스타트업]
 keywords: [AI 기본법 2026, 인공지능 기본법 시행, 고영향 AI, 생성형 AI 투명성 의무, AI 기본법 과태료]
-draft: false
+draft: true
 slug: korea-ai-basic-law-2026-developer-guide
 ---
 

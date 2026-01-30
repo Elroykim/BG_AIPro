@@ -5,7 +5,7 @@ description: "AI 도구를 활용하여 반복적인 업무를 자동화하고 �
 categories: [AI]
 tags: [AI 자동화, 생산성, 업무 효율화, AI 도구, 자동화]
 keywords: [AI 업무 자동화, AI 생산성 향상, 반복 업무 자동화, AI 도구 추천, 업무 효율화 방법]
-draft: false
+draft: true
 slug: ai-productivity-automation-guide-2026
 ---
 

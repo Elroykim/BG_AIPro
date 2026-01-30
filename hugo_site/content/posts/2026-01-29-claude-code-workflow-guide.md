@@ -5,7 +5,7 @@ description: "Claude Code 설치부터 실전 프로젝트 워크플로우까지
 categories: [AI]
 tags: [Claude Code, AI 코딩, Cursor, AI 에이전트, 개발 생산성]
 keywords: [Claude Code 사용법, Claude Code 설치, Claude Code vs Cursor, AI 코딩 에이전트, Claude Code 터미널]
-draft: false
+draft: true
 slug: claude-code-practical-workflow-guide-2026
 ---
 

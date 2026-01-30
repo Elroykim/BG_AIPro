@@ -5,7 +5,7 @@ description: "2026년 1월 기준 주요 LLM API 가격을 비교하고, 용도�
 categories: [AI]
 tags: [LLM API, GPT, Claude, Gemini, AI 비용]
 keywords: [LLM API 비용 비교, GPT API 가격 2026, Claude API 비용, AI API 비용 절감, LLM API 저렴한 모델]
-draft: false
+draft: true
 slug: llm-api-pricing-comparison-cost-optimization-2026
 ---
 

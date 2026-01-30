@@ -5,7 +5,7 @@ description: "RAG, 시맨틱 검색, 추천 시스템에 필수인 벡터 데이
 categories: [AI]
 tags: [벡터 데이터베이스, RAG, Pinecone, ChromaDB, Weaviate, Milvus]
 keywords: [벡터 데이터베이스 비교, 벡터 DB 추천, Pinecone 사용법, ChromaDB 가이드, RAG 벡터 저장소]
-draft: false
+draft: true
 slug: vector-database-comparison-guide-2026
 ---
 

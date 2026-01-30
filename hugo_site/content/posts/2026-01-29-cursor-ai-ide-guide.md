@@ -5,7 +5,7 @@ description: "Cursor AI IDE의 설치, 설정, 핵심 기능을 완벽하게 정
 categories: [AI]
 tags: [Cursor, AI IDE, AI 코딩, 개발 도구, 생산성]
 keywords: [Cursor AI 사용법, Cursor IDE 가이드, Cursor vs VS Code, AI 코딩 도구, Cursor 단축키]
-draft: false
+draft: true
 slug: cursor-ai-ide-complete-guide-2026
 ---
 

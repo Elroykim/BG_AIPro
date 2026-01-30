@@ -5,7 +5,7 @@ description: "AI 편향의 원인과 종류, 공정성 측정 방법, 책임 있
 categories: [AI]
 tags: [AI 윤리, AI 편향, 공정성, 책임 있는 AI, AI 기본법]
 keywords: [AI 윤리 가이드, AI 편향 해결, 책임 있는 AI 개발, AI 공정성, AI 기본법 개발자]
-draft: false
+draft: true
 slug: ai-ethics-bias-developer-guide-2026
 ---
 

@@ -5,7 +5,7 @@ description: "프롬프트 인젝션, 데이터 유출, 모델 공격 등 AI 시
 categories: [AI]
 tags: [AI 보안, 프롬프트 인젝션, LLM 보안, 사이버보안, OWASP]
 keywords: [AI 보안 위협, 프롬프트 인젝션 방어, LLM 보안 가이드, AI 데이터 유출, OWASP LLM Top 10]
-draft: false
+draft: true
 slug: ai-security-developer-guide-2026
 ---
 

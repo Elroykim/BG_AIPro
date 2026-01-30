@@ -5,7 +5,7 @@ description: "Python과 LLM API를 활용해 나만의 AI 챗봇을 만드는 �
 categories: [AI]
 tags: [AI 챗봇, Python, LLM, Claude API, 챗봇 개발]
 keywords: [AI 챗봇 만들기, Python 챗봇 개발, LLM 챗봇 구축, Claude 챗봇 만들기, AI 챗봇 튜토리얼]
-draft: false
+draft: true
 slug: ai-chatbot-build-guide-python-2026
 ---
 

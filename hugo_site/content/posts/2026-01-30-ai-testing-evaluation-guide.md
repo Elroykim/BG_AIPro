@@ -5,7 +5,7 @@ description: "LLM 기반 애플리케이션의 테스트와 평가 방법. 프�
 categories: [AI]
 tags: [AI 테스트, LLM 평가, 프롬프트 테스트, AI 품질, 에이전트 평가]
 keywords: [LLM 테스트 방법, AI 평가 지표, 프롬프트 테스트, LLM 벤치마크, AI 품질 관리]
-draft: false
+draft: true
 slug: ai-llm-testing-evaluation-guide-2026
 ---
 

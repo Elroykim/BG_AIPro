@@ -5,7 +5,7 @@ description: "n8n과 AI를 결합한 업무 자동화 실전 가이드. 이메�
 categories: [AI]
 tags: [n8n, AI 자동화, 노코드, 업무 자동화, 워크플로우]
 keywords: [n8n AI 자동화, n8n 사용법 한국어, AI 업무 자동화 도구, n8n 워크플로우 예제, 노코드 AI 자동화]
-draft: false
+draft: true
 slug: n8n-ai-automation-workflow-guide-2026
 ---
 

@@ -5,7 +5,7 @@ description: "RAG(검색 증강 생성)의 원리를 이해하고, Python으로 
 categories: [AI]
 tags: [RAG, 벡터 데이터베이스, LangChain, 임베딩, AI 개발]
 keywords: [RAG 시스템 구축, RAG 구현 방법, LangChain RAG 한국어, 벡터 데이터베이스 사용법, RAG 한국어 임베딩]
-draft: false
+draft: true
 slug: rag-system-build-guide-python-2026
 ---
 

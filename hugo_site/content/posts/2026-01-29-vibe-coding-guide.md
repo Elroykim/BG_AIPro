@@ -19,7 +19,7 @@ keywords:
   - AI 코딩 에이전트
   - 바이브 코딩 수익화
   - AI로 앱 만들기
-draft: false
+draft: true
 slug: vibe-coding-guide-2026
 ---
 

@@ -5,7 +5,7 @@ description: "GitHub Copilot의 코드 자동완성, Chat, Workspace, CLI 기능
 categories: [AI]
 tags: [GitHub Copilot, AI 코딩, 개발 도구, 생산성, VS Code]
 keywords: [GitHub Copilot 사용법, Copilot 팁, AI 코딩 도우미, Copilot 활용법, Copilot 가격]
-draft: false
+draft: true
 slug: github-copilot-tips-productivity-2026
 ---
 

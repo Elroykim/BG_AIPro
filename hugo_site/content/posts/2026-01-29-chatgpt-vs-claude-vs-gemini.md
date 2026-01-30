@@ -5,7 +5,7 @@ description: "2026년 ChatGPT, Claude, Gemini를 한국어 실무 기준으로 �
 categories: [AI]
 tags: [ChatGPT, Claude, Gemini, AI 비교, AI 추천]
 keywords: [ChatGPT Claude Gemini 비교, AI 챗봇 비교 2026, ChatGPT vs Claude 한국어, AI 구독 추천, Claude 한국어 성능]
-draft: false
+draft: true
 slug: chatgpt-vs-claude-vs-gemini-comparison-2026
 ---
 
