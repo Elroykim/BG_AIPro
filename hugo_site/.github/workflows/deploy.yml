@@ -1,10 +1,8 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy Hugo to GitHub Pages
 
 on:
   push:
     branches: [main]
-    paths:
-      - 'hugo_site/**'
   workflow_dispatch:
 
 permissions:
@@ -13,12 +11,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
-
-defaults:
-  run:
-    shell: bash
 
 jobs:
   build:
@@ -28,27 +22,26 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.156.0'
           extended: true
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build
-        working-directory: ./hugo_site
-        run: |
-          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Build with Hugo
+        env:
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: hugo --minify --baseURL "$BASE_URL/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./hugo_site/public
+          path: ./public
 
   deploy:
     environment:
