@@ -9,9 +9,23 @@
     {{ with .ReadingTime }}<span>{{ . }}min read</span>{{ end }}
   </div>
 
+  {{- with site.Params.googleAdSenseID }}
+  <ins class="adsbygoogle" style="display:block;text-align:center;margin:24px 0"
+       data-ad-layout="in-article" data-ad-format="fluid"
+       data-ad-client="{{ . }}" data-ad-slot="auto"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  {{- end }}
+
   <div class="post-content">
     {{ .Content }}
   </div>
+
+  {{- with site.Params.googleAdSenseID }}
+  <ins class="adsbygoogle" style="display:block;margin:32px 0"
+       data-ad-format="auto" data-full-width-responsive="true"
+       data-ad-client="{{ . }}" data-ad-slot="auto"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  {{- end }}
 
   {{ with .Params.tags }}
   <div style="margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border);">
