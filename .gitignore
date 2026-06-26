@@ -1,15 +1,10 @@
-.env
-__pycache__/
-*.pyc
-.pytest_cache/
-dist/
-*.egg-info/
-.venv/
-.ruff_cache/
-data/*.db
-output/
-
-# Hugo
-hugo_site/public/
-hugo_site/resources/
-hugo_site/.hugo_build.lock
+# Project repo hygiene
+.DS_Store
+_sac_history.jsonl
+*_sac_history.jsonl
+_pm_state.json
+_timesheets.jsonl
+logs/*.db
+logs/*.sqlite
+logs/*.sqlite3
+*.tmp
