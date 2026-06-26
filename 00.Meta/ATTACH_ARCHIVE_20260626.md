@@ -1,7 +1,8 @@
 ---
 type: attach_archive
 project: BG_AIPro
-created: 2026-06-26T20:30:00+09:00
+created: 2026-06-26
+updated: 2026-06-26 20:45 KST
 status: gdrive_archived
 default_branch: claude/blog-automation-setup-dGMKc
 gdrive_archive: /Users/elroy/Library/CloudStorage/GoogleDrive-rlawlsdnd412@gmail.com/내 드라이브/01.Project & Process/BG_AIPro/99.Local_Attach_Archive/20260626
