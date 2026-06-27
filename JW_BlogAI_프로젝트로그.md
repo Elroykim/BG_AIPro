@@ -1,11 +1,11 @@
 ---
 type: project_log
-project: BG_AIPro
+project: JW_BlogAI
 created: "2026-06-27"
 updated: "2026-06-27"
 ---
 
-# BG_AIPro 프로젝트 로그
+# JW_BlogAI 프로젝트 로그
 
 ## 로그 원칙
 

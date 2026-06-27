@@ -85,7 +85,7 @@ async def cmd_run(topic_name: str, keyword: str | None = None):
 
 def main():
     if len(sys.argv) < 2:
-        console.print("[bold]BG_AIPro[/bold] - 블로그 자동화 시스템")
+        console.print("[bold]JW_BlogAI[/bold] - 블로그 자동화 시스템")
         console.print("\n사용법:")
         console.print("  bgai topics           등록된 토픽 목록")
         console.print("  bgai run <토픽>       파이프라인 실행")

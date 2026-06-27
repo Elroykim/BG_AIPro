@@ -1,18 +1,18 @@
 ---
 type: project_guide
-project: BG_AIPro
+project: JW_BlogAI
 created: "2026-06-27"
 updated: "2026-06-27"
 ---
 
-# BG_AIPro 프로젝트 지침
+# JW_BlogAI 프로젝트 지침
 
 ## 1. 기본 원칙
 
-- 프로젝트 기본정보는 `[[BG_AIPro_프로젝트개요]]`를 우선 확인한다.
+- 프로젝트 기본정보는 `[[JW_BlogAI_프로젝트개요]]`를 우선 확인한다.
 - 루트 네비게이션과 자동 색인은 `[[_INDEX]]`를 사용한다.
 - 원본/바이너리 파일은 GDrive 프로젝트 폴더에 둔다.
-- 메타데이터/요약/검색 정보는 `00.System/RDFIndex/by_project/BG_AIPro/`에 둔다.
+- 메타데이터/요약/검색 정보는 `00.System/RDFIndex/by_project/JW_BlogAI/`에 둔다.
 - 작업 결과는 project worktree에서 commit/push/merge한다.
 - Discord 포럼에는 사용자가 요청한 산출물만 공유한다.
 
@@ -28,4 +28,4 @@ updated: "2026-06-27"
 - 한국어 기본, 필요 시 영문 병기.
 - 표에는 `상태/근거` 열을 둔다.
 - 미확정 정보는 `미확정`/`TBD`로 명시한다.
-- 변경사항은 `[[BG_AIPro_프로젝트로그]]`에 기록한다.
+- 변경사항은 `[[JW_BlogAI_프로젝트로그]]`에 기록한다.

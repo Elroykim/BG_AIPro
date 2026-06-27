@@ -2,27 +2,27 @@
 type: ["Project"]
 status: ["active"]
 prism: ["blog/automation"]
-index: ["BG_AIPro"]
+index: ["JW_BlogAI"]
 project: ["AIPro 블로그/콘텐츠 자동화"]
 tags: ["Project_Overview", "PMBOK"]
 aliases:
   - AIPro
   - 블로그 자동화
-  - BG_AIPro
+  - JW_BlogAI
   - 에이아이프로
 created: "2026-06-27"
 updated: "2026-06-27"
 ---
 
-# BG_AIPro 프로젝트 개요
+# JW_BlogAI 프로젝트 개요
 
 ## 1. 프로젝트 정체성
 
 | 항목 | 내용 |
 |---|---|
-| **프로젝트 코드** | `BG_AIPro` |
+| **프로젝트 코드** | `JW_BlogAI` |
 | **프로젝트명** | AIPro 블로그/콘텐츠 자동화 |
-| **자연어 별칭** | AIPro, 블로그 자동화, BG_AIPro, 에이아이프로 |
+| **자연어 별칭** | AIPro, 블로그 자동화, JW_BlogAI, 에이아이프로 |
 | **국가/지역** | BG |
 | **섹터** | blog/automation |
 | **상태** | `active` |
@@ -33,13 +33,13 @@ updated: "2026-06-27"
 
 | 구분 | 경로 / 값 |
 |---|---|
-| **Worktree / 문서 루트** | `/Users/elroy/ElroyNewVault/01.Project & Process/BG_AIPro` |
-| **GitHub Repo** | `https://github.com/Elroykim/BG_AIPro` |
-| **GDrive 프로젝트 폴더** | `/Users/elroy/Library/CloudStorage/GoogleDrive-rlawlsdnd412@gmail.com/내 드라이브/01.Project & Process/BG_AIPro` |
+| **Worktree / 문서 루트** | `/Users/elroy/ElroyNewVault/01.Project & Process/JW_BlogAI` |
+| **GitHub Repo** | `https://github.com/Elroykim/JW_BlogAI` |
+| **GDrive 프로젝트 폴더** | `/Users/elroy/Library/CloudStorage/GoogleDrive-rlawlsdnd412@gmail.com/내 드라이브/01.Project & Process/JW_BlogAI` |
 | **Discord Forum Channel ID** | `미확정` |
 | **프로젝트 루트 인덱스** | `[[_INDEX]]` |
 | **별칭 라우팅 SSOT** | `00.System/ProjectIndex/PROJECT_ALIAS_INDEX.yaml` |
-| **RDFIndex** | `00.System/RDFIndex/by_project/BG_AIPro/` |
+| **RDFIndex** | `00.System/RDFIndex/by_project/JW_BlogAI/` |
 
 ## 3. 프로젝트 목적 및 배경
 
@@ -58,10 +58,10 @@ updated: "2026-06-27"
 
 | 항목 | 내용 | 관리 위치 |
 |---|---|---|
-| 예산/사업비 | 미확정 | `03.BG_AIPro_AD(행정)/` |
-| 인력/역할 | 미확정 | `03.BG_AIPro_AD(행정)/` |
-| 고객사/발주처 | 미확정 | `03.BG_AIPro_AD(행정)/` |
-| 관계사/참여기업 | 미확정 | `03.BG_AIPro_AD(행정)/` |
+| 예산/사업비 | 미확정 | `03.JW_BlogAI_AD(행정)/` |
+| 인력/역할 | 미확정 | `03.JW_BlogAI_AD(행정)/` |
+| 고객사/발주처 | 미확정 | `03.JW_BlogAI_AD(행정)/` |
+| 관계사/참여기업 | 미확정 | `03.JW_BlogAI_AD(행정)/` |
 | 계약/MOU/NDA | 미확정 | GDrive 원본 + RDFIndex |
 | RFP/RFQ/TOR/과업지시서 | 미확정 | GDrive 원본 + RDFIndex |
 
@@ -75,28 +75,28 @@ updated: "2026-06-27"
 ## 7. 프로젝트 구조
 
 ```text
-BG_AIPro/
+JW_BlogAI/
 ├── _INDEX.md
-├── BG_AIPro_프로젝트개요.md
-├── BG_AIPro_프로젝트로그.md
-├── BG_AIPro_프로젝트지침.md
-├── BG_AIPro_작업파일구조.md
-├── 01.BG_AIPro_RP(보고)/
-├── 02.BG_AIPro_RA(검토및분석)/
-├── 03.BG_AIPro_AD(행정)/
-├── 04.BG_AIPro_RM(자료)/
-├── 05.BG_AIPro_MT(관리)/
-└── 06.BG_AIPro_SC(Scripts)/
+├── JW_BlogAI_프로젝트개요.md
+├── JW_BlogAI_프로젝트로그.md
+├── JW_BlogAI_프로젝트지침.md
+├── JW_BlogAI_작업파일구조.md
+├── 01.JW_BlogAI_RP(보고)/
+├── 02.JW_BlogAI_RA(검토및분석)/
+├── 03.JW_BlogAI_AD(행정)/
+├── 04.JW_BlogAI_RM(자료)/
+├── 05.JW_BlogAI_MT(관리)/
+└── 06.JW_BlogAI_SC(Scripts)/
 ```
 
 ## 8. 핵심 관리 기준
 
 | 기준 | 원칙 |
 |---|---|
-| 프로젝트 기본정보 SSOT | `BG_AIPro_프로젝트개요.md` |
+| 프로젝트 기본정보 SSOT | `JW_BlogAI_프로젝트개요.md` |
 | 프로젝트 루트 색인 | `_INDEX.md` |
 | 원본/바이너리 정본 | GDrive 프로젝트 폴더 |
-| 메타데이터/검색 정본 | Vault `00.System/RDFIndex/by_project/BG_AIPro/` |
+| 메타데이터/검색 정본 | Vault `00.System/RDFIndex/by_project/JW_BlogAI/` |
 | 작업/버전관리 | 프로젝트별 worktree/repo에서 commit/push/merge |
 | 금지 | `00.Meta/` 생성, 근거 없는 예산/기관/일정 단정 |
 
@@ -119,9 +119,9 @@ BG_AIPro/
 ## 11. 관련 문서
 
 - `[[_INDEX]]` — 프로젝트 루트 인덱스
-- `[[BG_AIPro_프로젝트로그]]` — 변경/결정 이력
-- `[[BG_AIPro_프로젝트지침]]` — 작업 규칙/문체/주의사항
-- `[[BG_AIPro_작업파일구조]]` — 파일 구조 및 작업 단위
+- `[[JW_BlogAI_프로젝트로그]]` — 변경/결정 이력
+- `[[JW_BlogAI_프로젝트지침]]` — 작업 규칙/문체/주의사항
+- `[[JW_BlogAI_작업파일구조]]` — 파일 구조 및 작업 단위
 
 ## 12. 업데이트 규칙
 

@@ -1,6 +1,6 @@
 ---
 type: project
-project: BG_AIPro
+project: JW_BlogAI
 title: AIPro 블로그/콘텐츠 자동화
 status: active
 country: BG
@@ -9,20 +9,20 @@ updated: 2026-06-27
 aliases:
   - AIPro
   - 블로그 자동화
-  - BG_AIPro
+  - JW_BlogAI
   - 에이아이프로
 discord_forum_channel_id: 
 ---
 
-# BG_AIPro — AIPro 블로그/콘텐츠 자동화
+# JW_BlogAI — AIPro 블로그/콘텐츠 자동화
 
 ## 프로젝트 라우팅
 
-- 코드: `BG_AIPro`
-- 자연어 별칭: `AIPro`, `블로그 자동화`, `BG_AIPro`, `에이아이프로`
-- Worktree: `/Users/elroy/ElroyNewVault/01.Project & Process/BG_AIPro`
-- GDrive: `/Users/elroy/Library/CloudStorage/GoogleDrive-rlawlsdnd412@gmail.com/내 드라이브/01.Project & Process/BG_AIPro`
-- Repo: https://github.com/Elroykim/BG_AIPro
+- 코드: `JW_BlogAI`
+- 자연어 별칭: `AIPro`, `블로그 자동화`, `JW_BlogAI`, `에이아이프로`
+- Worktree: `/Users/elroy/ElroyNewVault/01.Project & Process/JW_BlogAI`
+- GDrive: `/Users/elroy/Library/CloudStorage/GoogleDrive-rlawlsdnd412@gmail.com/내 드라이브/01.Project & Process/JW_BlogAI`
+- Repo: https://github.com/Elroykim/JW_BlogAI
 - Discord forum: 미지정
 
 
@@ -31,20 +31,20 @@ discord_forum_channel_id:
 
 - updated: 2026-06-27 14:45 KST
 - rule: 루트 `_INDEX.md`가 단일 프로젝트 인덱스다. 파일별 메타 MD/`00.Meta` 폴더를 만들지 않는다.
-- project overview canonical: `BG_AIPro_프로젝트개요.md` 또는 기존 프로젝트개요 파일
+- project overview canonical: `JW_BlogAI_프로젝트개요.md` 또는 기존 프로젝트개요 파일
 - binary/source canonical: GDrive project folder
-- metadata/search canonical: Vault `00.System/RDFIndex/by_project/BG_AIPro/`
+- metadata/search canonical: Vault `00.System/RDFIndex/by_project/JW_BlogAI/`
 
 ### Markdown 문서 인덱스
 
 | path | title | size |
 |---|---|---:|
-| `BG_AIPro_작업파일구조.md` | BG_AIPro 작업파일 구조 | 1415 |
-| `BG_AIPro_프로젝트개요.md` | BG_AIPro 프로젝트 개요 | 4988 |
-| `BG_AIPro_프로젝트로그.md` | BG_AIPro 프로젝트 로그 | 617 |
-| `BG_AIPro_프로젝트지침.md` | BG_AIPro 프로젝트 지침 | 1212 |
-| `_INDEX.md` | BG_AIPro — AIPro 블로그/콘텐츠 자동화 | 7492 |
-| `docs/architecture.md` | BG_AIPro 블로그 자동화 시스템 아키텍처 | 5441 |
+| `JW_BlogAI_작업파일구조.md` | JW_BlogAI 작업파일 구조 | 1415 |
+| `JW_BlogAI_프로젝트개요.md` | JW_BlogAI 프로젝트 개요 | 4988 |
+| `JW_BlogAI_프로젝트로그.md` | JW_BlogAI 프로젝트 로그 | 617 |
+| `JW_BlogAI_프로젝트지침.md` | JW_BlogAI 프로젝트 지침 | 1212 |
+| `_INDEX.md` | JW_BlogAI — AIPro 블로그/콘텐츠 자동화 | 7492 |
+| `docs/architecture.md` | JW_BlogAI 블로그 자동화 시스템 아키텍처 | 5441 |
 | `hugo_site/archetypes/default.md` | default | 107 |
 | `hugo_site/content/posts/2026-01-29-ai-image-generation-comparison.md` | 2026-01-29-ai-image-generation-comparison | 11178 |
 | `hugo_site/content/posts/2026-01-29-ai-productivity-automation.md` | 2026-01-29-ai-productivity-automation | 11882 |
@@ -89,5 +89,5 @@ discord_forum_channel_id:
 
 ### GDrive/RDF 원본 인덱스
 
-_프로젝트 원본은 GDrive 프로젝트 폴더와 Vault `00.System/RDFIndex/by_project/BG_AIPro/`에서 관리한다._
+_프로젝트 원본은 GDrive 프로젝트 폴더와 Vault `00.System/RDFIndex/by_project/JW_BlogAI/`에서 관리한다._
 <!-- AUTO_INDEX_END:project_inventory -->
