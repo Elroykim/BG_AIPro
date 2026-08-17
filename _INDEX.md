@@ -1,6 +1,10 @@
 ---
 type: project
 project: JW_BlogAI
+prefix: JW
+category: project
+owner: "TBD — CEO input required"
+company: "TBD — CEO input required"
 title: AIPro 블로그/콘텐츠 자동화
 status: active
 country: BG

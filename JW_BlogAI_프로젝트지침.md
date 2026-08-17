@@ -1,8 +1,12 @@
 ---
-type: project_guide
+type: project-guide
 project: JW_BlogAI
+title: JW_BlogAI 프로젝트 지침
+status: draft
+owner: "TBD — CEO input required"
+tags: [project-guide]
 created: "2026-06-27"
-updated: "2026-06-27"
+updated: "2026-07-22"
 ---
 
 # JW_BlogAI 프로젝트 지침
